@@ -15,6 +15,10 @@ body{
  Navagation
  ***************/
 
+.alt-heading {
+  display: none;
+}
+
 .navbar{
   color: #f7f7f7;
   background: #00909e;
@@ -60,28 +64,18 @@ body{
 }
 
 @media screen and (max-width:950px){
-  .navbar{
-    position: inherit;
-    align-items: center;
-    justify-content: center;
+  .navbar {
+    display: none;
   }
 
-  .navbar .first-Item{
-    position: relative;
-  }
-
-  .list, .navbar{
-    flex-direction: column;
-  }
-
-  .list{
-    text-align: center;
+  .alt-heading {
+    display: inline-block;
+    color: #f7f7f7;
     width: 100%;
-  }
-
-  .list-Item{
-    border-top: 2px solid #3f3f44;
-    border-left: none;
+    text-align: center;
+    padding: 15px;
+    background: #00909e;
+    box-shadow: 1px 1px 2px 2px #3f3f44;
   }
 }
 
@@ -128,6 +122,10 @@ body{
 @media screen and (max-width:950px){
   .header h1 {
     width: 70%;
+  }
+
+  .header {
+    height: 90vh;
   }
 }
 
