@@ -215,6 +215,10 @@ body{
    .personal-pic {
      width: 80%;
    }
+
+   .connector {
+     display: none;
+   }
  }
 
  /****************
