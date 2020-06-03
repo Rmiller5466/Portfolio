@@ -99,7 +99,7 @@ body{
   padding: 30px;
   border: 2px solid #3f3f44;
   border-radius: 5%;
-  box-shadow: 1px 1px 2px 2px #3f3f44;
+  box-shadow: -1px -1px 2px 2px #3f3f44;
 }
 
 .header .boxed {
@@ -109,13 +109,13 @@ body{
   bottom: -15px;
   border: 2px solid #3f3f44;
   box-shadow: -1px -1px 2px 2px #3f3f44;
-  font-size: 1.25em;
+  font-size: 1.5em;
 }
 
 .header .smaller-text {
   display: inline-block;
   position: relative;
-  bottom: -30px;
+  bottom: -25px;
   font-size: .75em;
 }
 
